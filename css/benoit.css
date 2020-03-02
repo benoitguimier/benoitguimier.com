@@ -160,6 +160,10 @@ img.responsive {
     }
 
     a {
+        text-decoration: none;
+    }
+    
+    a.insta {
         text-decoration: underline;
     }
 
