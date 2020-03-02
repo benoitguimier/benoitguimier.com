@@ -39,8 +39,8 @@ p {
 
 header p {
     margin-left: 2em;
-    margin-right: 2em;
-    margin-top: 0.4em;
+    margin-right: 0em;
+    margin-top: 0.3em;
     /* Taille de la police du titre : */
     font-size: 1.6em;
 }
@@ -172,7 +172,6 @@ img.responsive {
     header p {
         font-size: 1em;
         margin-left: 1.3em;
-        margin-right: 0em;
         line-height: 1.2em;
     }
 
