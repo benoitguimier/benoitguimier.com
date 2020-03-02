@@ -57,10 +57,9 @@ header p {
 /* Légendes des images : */
 p.legende {
     position: fixed;
-    margin-left: 2em;
     bottom: 0em;
     padding: 0;
-    margin-left: 1.2em;
+    margin-left: 1.1em;
     margin-right: 1.2em;
     margin-bottom: 0.3em;
     /* interlignage : */
@@ -154,7 +153,7 @@ img.responsive {
 
 /* Tablette */
 
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
 
     .hidebrtablette {
         display: block;
@@ -173,6 +172,7 @@ img.responsive {
 
     p.legende {
         font-size: 1em;
+                margin-left: 0.3em;
     }
 
     a {
@@ -199,7 +199,9 @@ img.responsive {
     p.legende {
         font-size: 1em;
         line-height: 1.2em;
+        margin-left: 0.55em;
     }
+    
 
     a {
         text-decoration: none;
