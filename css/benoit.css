@@ -39,6 +39,7 @@ p {
 header p {
     margin-left: 2em;
     margin-right: 2em;
+    margin-top: 0.3em;
     /* Taille de la police du titre : */
     font-size: 1.6em;
 }
@@ -46,6 +47,10 @@ header p {
 /* Prénom et Nom : */
 .NordItalic {
     font-family: 'AntiqueOlive-NordItalic', sans-serif;
+}
+
+.Italic {
+    font-family: 'AntiqueOlive-Italic', sans-serif;
 }
 
 /* Légendes des images : */
@@ -56,6 +61,9 @@ p.legende {
     padding: 0;
     margin-left: 1.2em;
     margin-right: 1.2em;
+    margin-bottom: 0.3em;
+    /* interlignage : */
+    line-height: 1.1em;
     /* Taille de la police : */
     font-size: 2.7em;
     z-index: 1000;
@@ -77,7 +85,8 @@ a:hover {
 
 /* Touche pas : */
 
-.hidebr {
+.hidebr,
+.hidebrtablette {
     display: none;
 }
 
@@ -162,11 +171,13 @@ img.responsive {
     header p {
         font-size: 1em;
         margin-left: 1.3em;
-        margin-right: 1.3em;
+        margin-right: 0em;
+        line-height: 1.2em;
     }
 
     p.legende {
         font-size: 1em;
+        line-height: 1.2em;
     }
 
     a {
