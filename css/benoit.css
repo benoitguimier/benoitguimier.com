@@ -38,11 +38,12 @@ p {
 }
 
 header p {
-    margin-left: 2em;
+    margin-left: 1.2em;
     margin-right: 0em;
     margin-top: 0.3em;
     /* Taille de la police du titre : */
     font-size: 1.6em;
+    text-shadow: 0 0 2px black;
 }
 
 /* Prénom et Nom : */
@@ -52,6 +53,11 @@ header p {
 
 .Italic {
     font-family: 'AntiqueOlive-Italic', sans-serif;
+}
+
+/* span noir */
+.mySlides .noir {
+    color: black;
 }
 
 /* Légendes des images : */
