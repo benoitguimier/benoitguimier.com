@@ -297,6 +297,7 @@
         x[slideIndex - 1].style.display = "block";
 
     }
+
 </script>
 
 <!-- wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww -->
@@ -335,17 +336,23 @@
         }
     }
 
+    En cas de redimensionnement de la fenêtre
+    $(window).resize(function() {
+        redimensionnement();
+    });
+
     //$(document).ready(function() {
 
-        // Au chargement initial   
-      //  redimensionnement();
+    // Au chargement initial   
+    //  redimensionnement();
 
-        // En cas de redimensionnement de la fenêtre
-        //$(window).resize(function() {
-          //  redimensionnement();
-        //});
+    // En cas de redimensionnement de la fenêtre
+    //$(window).resize(function() {
+    //  redimensionnement();
+    //});
 
-   // });
+    // });
+
 </script>
 
 
