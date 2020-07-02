@@ -297,7 +297,6 @@
         x[slideIndex - 1].style.display = "block";
 
     }
-
 </script>
 
 <!-- wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww -->
@@ -307,53 +306,47 @@
 <!-- wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww -->
 
 <script>
-    $(document).ready(function(redimensionnement) {
+    
+    $(document).ready(function() {
 
-                var $image = $('img.responsive');
-                var image_width = $image.width();
-                var image_height = $image.height();
+        // Au chargement initial   
+        redimensionnement();
 
-                var over = image_width / image_height;
-                var under = image_height / image_width;
+        // En cas de redimensionnement de la fenêtre
+        $(window).resize(function() {
+            redimensionnement();
+        });
 
-                var body_width = $(window).width();
-                var body_height = $(window).height();
+    });
+    
+    function redimensionnement() {
 
-                if (body_width / body_height >= over) {
-                    $image.css({
-                        'width': body_width + 'px',
-                        'height': Math.ceil(under * body_width) + 'px',
-                        'left': '0px',
-                        'top': Math.abs((under * body_width) - body_height) / -2 + 'px'
-                    });
-                } else {
-                    $image.css({
-                        'width': Math.ceil(over * body_height) + 'px',
-                        'height': body_height + 'px',
-                        'top': '0px',
-                        'left': Math.abs((over * body_height) - body_width) / -2 + 'px'
-                    });
-                }
-            }
+        var $image = $('img.responsive');
+        var image_width = $image.width();
+        var image_height = $image.height();
 
-            $(document).ready(function() {
-                //En cas de redimensionnement de la fenêtre
-                $(window).resize(function() {
-                    redimensionnement();
-                });
+        var over = image_width / image_height;
+        var under = image_height / image_width;
+
+        var body_width = $(window).width();
+        var body_height = $(window).height();
+
+        if (body_width / body_height >= over) {
+            $image.css({
+                'width': body_width + 'px',
+                'height': Math.ceil(under * body_width) + 'px',
+                'left': '0px',
+                'top': Math.abs((under * body_width) - body_height) / -2 + 'px'
             });
-
-            //$(document).ready(function() {
-
-            // Au chargement initial   
-            //  redimensionnement();
-
-            // En cas de redimensionnement de la fenêtre
-            //$(window).resize(function() {
-            //  redimensionnement();
-            //});
-
-            // });
+        } else {
+            $image.css({
+                'width': Math.ceil(over * body_height) + 'px',
+                'height': body_height + 'px',
+                'top': '0px',
+                'left': Math.abs((over * body_height) - body_width) / -2 + 'px'
+            });
+        }
+    }
 
 </script>
 
