@@ -99,7 +99,7 @@ a:hover {
 
 /* Button : */
 
-.grid_12 .button_left {
+.button_left {
     position: fixed;
     height: 99%;
     width: 50%;
@@ -108,11 +108,11 @@ a:hover {
     left: 0;
 }
 
-.grid_12 .button_left:hover {
+.button_left:hover {
     cursor: w-resize;
 }
 
-.grid_12 .button_right {
+.button_right {
     position: fixed;
     height: 99%;
     width: 50%;
@@ -121,7 +121,7 @@ a:hover {
     right: 0;
 }
 
-.grid_12 .button_right:hover {
+.button_right:hover {
     cursor: e-resize;
 }
 
