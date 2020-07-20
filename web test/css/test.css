@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: fixed;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+/* Général */
+@font-face {
+    font-family: 'AntiqueOlive-Roman';
+    src: url("../font/Antique-Olive-Std-Roman_3869.ttf");
+}
+
+@font-face {
+    font-family: 'AntiqueOlive-Italic';
+    src: url("../font/Antique-Olive-Std-Italic_3865.ttf");
+}
+
+@font-face {
+    font-family: 'AntiqueOlive-NordItalic';
+    src: url("../font/Antique-Olive-Std-Nord-Italic_3867.ttf");
+}
+
+/* Coordonnées dans le header : */
+p {
+    font-family: 'AntiqueOlive-Roman', sans-serif;
+    position: fixed;
+    color: white;
+    z-index: 1000;
+}
+
+header p {
+    margin-left: 1.2em;
+    margin-right: 0em;
+    margin-top: 0.3em;
+    /* Taille de la police du titre : */
+    font-size: 1.6em;
+        text-shadow: 0 0 2px black;
+}
+
+/* Prénom et Nom : */
+.NordItalic {
+    font-family: 'AntiqueOlive-NordItalic', sans-serif;
+}
+
+.Italic {
+    font-family: 'AntiqueOlive-Italic', sans-serif;
+}
+
+/* Style de @benoit_gmr : */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style de @benoit_gmr au hover : */
+a:hover {
+    color: yellow;
+}
+
+
+/* Touche pas : */
+
+.hidebr,
+.hidebrtablette {
+    display: none;
+}
+
+/* ///////////////////////////////// */
+
+#bouton_droite {
+    position: relative;
+    float: right;
+    border: 1px solid red;
+}
+
+/* ///////////////////////////////// */
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+.mySlides {
+    display: none;
+}
