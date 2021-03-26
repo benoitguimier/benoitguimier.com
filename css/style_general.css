@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+body {
+    font-family: 'ABCSynt-Regular-Trial', serif;
+}
+
+svg:hover,
+a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+/* //////////////////////////////////// */
+/* //////////// @FONT-FACE //////////// */
+/* //////////////////////////////////// */
+
+@font-face {
+    font-family: 'ABCSynt-Regular-Trial';
+    src: url("../font/ABCSynt-Regular-Trial.otf");
+}
+
+@font-face {
+    font-family: 'ABCSynt-Italic-Trial';
+    src: url("../font/ABCSynt-Italic-Trial.otf");
+}
+
+@font-face {
+    font-family: 'ABCSynt-Turbo-Trial';
+    src: url("../font/ABCSynt-Turbo-Trial.otf");
+}
+
+@font-face {
+    font-family: 'ABCWhyteInktrap-Medium';
+    src: url("../font/ABCWhyteInktrap-Medium.otf");
+}
+
+/* */
+@font-face {
+    font-family: 'Synt-Regular';
+    src: url("../font/EduSynt-Regular.woff2") format("woff2"),
+        url("../font/EduSynt-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Synt-Italic';
+    src: url("../font/EduSynt-Italic.woff2") format("woff2"),
+        url("../font/EduSynt-Italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'Synt-Turbo';
+    src: url("../font/EduSynt-Turbo.woff2") format("woff2"),
+        url("../font/EduSynt-Turbo.woff") format("woff");
+}

@@ -1,0 +1,98 @@
+/* //////////////////////////////////// */
+/* /////////////// INDEX ////////////// */
+/* //////////////////////////////////// */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+h1 {
+    font-size: 7vw;
+    vertical-align: -2%;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
+    letter-spacing: -0.015em;
+}
+
+h1:hover {
+    cursor: pointer;
+    font-family: 'Synt-Turbo';
+}
+
+.projet p {
+    font-family: 'Synt-Italic';
+    color: white;
+    padding-bottom: 0.4%;
+    position: absolute;
+    left: 60%;
+    font-size: 0.95vw;
+}
+
+/* //////////////////////////////////// */
+/* ////////////// CONTENU ///////////// */
+/* //////////////////////////////////// */
+
+#listeprojet {
+    background-color: black;
+    padding-top: 3.3vw;
+}
+
+/* Forme du curseur au survol des div projet */
+.projet {
+    height: 7.9vw;
+    padding-bottom: 0.2em;
+    border-bottom: 3px solid white;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* images */
+#listeprojet img {
+    z-index: 900;
+    border: 3px solid white;
+    opacity: 0;
+    height: 350px;
+    position: absolute;
+    transition: opacity .5s ease-in;
+    transition: left .2s linear;
+    transition: top .2s linear;
+}
+
+/* //////////////////////////////////// */
+/* //////////////////////////////////// */
+
+/* //////////////////////////////////// */
+/* /////////// MEDIA QUERIES ////////// */
+/* //////////////////////////////////// */
+
+/* Portrait and Landscape */
+@media only screen and (max-device-width: 700px) {
+
+    .projet {
+        height: inherit;
+    }
+
+    h1 {
+        padding: 1vw;
+        padding-bottom: 2.3vw;
+        padding-left: 2vw;
+        font-size: 13.6vw;
+        line-height: 13vw;
+    }
+
+    .projet p {
+        display: none;
+    }
+
+    #listeprojet {
+        padding-top: 26vw;
+    }
+
+    #listeprojet img {
+        display: none;
+    }
+
+}
