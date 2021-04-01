@@ -173,9 +173,7 @@ p {
 @media only screen and (max-device-width: 1089px) {
 
     .container_12 {
-        width: 96%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 100%;
         min-height: 0;
         min-width: 0;
     }
@@ -194,7 +192,7 @@ p {
     .grid_12 {
         margin-left: 2%;
         margin-right: 2%;
-        margin-bottom: 2%;
+        margin-bottom: 1%;
     }
 
     .container_12 .grid_1,
@@ -212,39 +210,37 @@ p {
         width: 96%;
     }
 
-
-
     h2 {
         position: static;
         margin-top: 67vw;
         font-size: 11vw;
         padding-left: 5vw;
         padding-bottom: 10vw;
-        width: 101vw;
+        width: 93%;
         min-height: 1vw;
         line-height: inherit;
     }
 
     #description_projet {
-        width: 108vw;
+        width: 100%;
         position: static;
         z-index: -2;
         top: 0;
-        border: 1px solid red;
     }
 
     #FR,
     #EN {
-        width: 100vw;
+        width: 85%;
         margin-left: 4vw;
         font-size: 3.5vw;
         position: static;
     }
-    
+
     body h2, #description_projet {
         background-color: white;
-
     }
+
+
 
 
 
