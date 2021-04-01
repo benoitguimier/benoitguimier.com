@@ -125,7 +125,7 @@ svg:hover {
     #apropos {
         right: 5vw;
         top: 26.5vw;
-        width: 90vw;
+        width: 97vw;
         z-index: 10000;
     }
 
@@ -134,8 +134,8 @@ svg:hover {
     }
 
     #apropos svg {
-        width: 2vw;
-        height: 2vw;
+        width: 5vw;
+        height: 5vw;
     }
 
     #apropos svg:hover {
