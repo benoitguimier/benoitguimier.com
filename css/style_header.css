@@ -115,6 +115,7 @@ svg:hover {
         font-size: 8vw;
         line-height: 9vw;
         height: 62vw;
+        z-index: 0;
     }
 
     .hidebr {
