@@ -112,14 +112,9 @@ svg:hover {
     }
 
     #header {
-        z-index: -2;
         font-size: 8vw;
         line-height: 9vw;
         height: 62vw;
-    }
-
-    #header #apropos {
-        z-index: 10000;
     }
 
     .hidebr {
@@ -131,6 +126,7 @@ svg:hover {
         right: 5vw;
         top: 26.5vw;
         width: 90vw;
+        z-index: 10000;
     }
 
     #apropos p {
