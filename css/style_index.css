@@ -89,6 +89,7 @@ h1:hover {
 
     #listeprojet {
         padding-top: 64vw;
+        z-index: 1500;
     }
 
     #listeprojet img {
