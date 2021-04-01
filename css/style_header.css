@@ -118,6 +118,10 @@ svg:hover {
         height: 62vw;
     }
 
+    #header #apropos {
+        z-index: 10000;
+    }
+
     .hidebr {
         display: block;
     }
