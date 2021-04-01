@@ -36,12 +36,12 @@ h1:hover {
 /* //////////////////////////////////// */
 
 #listeprojet {
-    background-color: black;
     padding-top: 3.3vw;
 }
 
 /* Forme du curseur au survol des div projet */
 .projet {
+    background-color: black;
     height: 7.9vw;
     padding-bottom: 0.2em;
     border-bottom: 3px solid white;
@@ -88,7 +88,7 @@ h1:hover {
     }
 
     #listeprojet {
-        padding-top: 26vw;
+        padding-top: 64vw;
     }
 
     #listeprojet img {
