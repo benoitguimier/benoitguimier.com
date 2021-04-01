@@ -162,6 +162,9 @@ p {
     width: 100%;
 }
 
+
+
+
 /* //////////////////////////////////// */
 /* //////////////////////////////////// */
 
@@ -213,38 +216,51 @@ p {
     }
 
 
+    h2 {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 30px;
+        font-family: 'Synt-Turbo';
+        font-size: 7vw;
+        padding: 2vw;
+        padding-left: 2vw;
+        letter-spacing: -0.015em;
+        width: 63.5vw;
+        min-height: 18vw;
+        z-index: -2;
+        line-height: 6.7vw;
+    }
 
     h2 {
-        position: static;
-        margin-top: 67vw;
+        padding-top: 70vw;
         font-size: 11vw;
         padding-left: 5vw;
         padding-bottom: 10vw;
-        width: 101vw;
+        width: 90vw;
         min-height: 1vw;
         line-height: inherit;
+        top: 0;
     }
 
-    #description_projet {
-        width: 108vw;
-        position: static;
+    #description_projet, h2 {
+        position: -webkit-sticky;
+        position: sticky;
         z-index: -2;
         top: 0;
-        border: 1px solid red;
     }
 
     #FR,
     #EN {
-        width: 100vw;
+        top: inherit;
+        top: -600;
+        width: 91vw;
         margin-left: 4vw;
         font-size: 3.5vw;
         position: static;
     }
-    
-    body h2, #description_projet {
-        background-color: white;
 
-    }
+  
+
 
 
 

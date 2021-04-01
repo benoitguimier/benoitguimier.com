@@ -17,6 +17,7 @@
     color: white;
     background-color: blue;
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1000;
     height: 2.7vw;
@@ -83,11 +84,6 @@ svg:hover {
 
 #apropos svg:hover {
     opacity: 0.9;
-}
-
-footer svg:hover {
-    opacity: 1;
-    cursor: inherit;
 }
 
 /* //////////////////////////////////// */
