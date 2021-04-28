@@ -17,6 +17,7 @@
     color: white;
     background-color: blue;
     position: fixed;
+    top: 0;
     width: 100%;
     z-index: 1000;
     height: 2.7vw;
@@ -85,6 +86,14 @@ svg:hover {
     opacity: 0.9;
 }
 
+#ligneInvisible {
+    display: none;
+}
+
+#prenomNomMobile {
+    display: none;
+}
+
 /* //////////////////////////////////// */
 /* //////////////////////////////////// */
 
@@ -97,9 +106,9 @@ svg:hover {
 
     svg {
         position: fixed;
-        top: 16.7vw;
+        top: 28vw;
         left: 1vw;
-        height: 6vw;
+        height: 8vw;
     }
 
     #svgPlus {
@@ -107,8 +116,18 @@ svg:hover {
     }
 
     #header {
+        position: fixed;
+        z-index: -1;
         font-size: 4.5vw;
-        height: 24.5vw;
+        height: 38.5vw;
+        top: 0;
+    }
+    
+
+    #ligneInvisible {
+        display: block;
+        border: 0px solid red;
+        width: 1%;
     }
 
     .hidebr {
@@ -134,5 +153,27 @@ svg:hover {
     #apropos svg:hover {
         opacity: 1;
     }
+    
+    #prenomNomMobile {
+        background-color: blue;
+        font-family: 'Synt-Italic';
+        font-size: 4.5vw;
+        position: fixed;
+        z-index: 4000;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: block;
+        left: 0;
+        top: 0;
+        padding: 0.1em;
+        padding-left: 0.5em;
+    }
+
+    #prenomNomMobile a {
+        color: white;
+        text-decoration: none;
+    }
+
 
 }

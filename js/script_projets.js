@@ -2,8 +2,16 @@ $("#header").load("../header.html");
 
 $("#header").load("header.html");
 
+
+
 $(document).ready(function () {
     if ($(window).width() >= 1090) {
+        
+        var headerHeight = $("#header").outerHeight(true);
+
+        $("#listeprojet").css({
+            "margin-top": headerHeight
+        });
 
         $(document).ready(marginTopSecondContainer);
         $(window).on('resize', marginTopSecondContainer);
@@ -55,27 +63,35 @@ $(document).ready(function () {
 
             var imagePositionX = e.pageX + 15;
             var imagePositionY = e.pageY + 15;
-
+            var bodyHeight = $("body").outerHeight(true);
+            var projetHeight = $(".projet").outerHeight(true);
+            var bodyHeightMoinsProjetHeight = bodyHeight - projetHeight;
             $("img").css({
                 "left": imagePositionX,
                 "top": imagePositionY
             });
+            if (pageX < bodyHeightMoinsProjetHeight) {
+
+            } else {
+                $("img").css({
+                    "left": imagePositionX,
+                    "top": imagePositionY
+                });
+            }
         });
 
-    };
-
-});
+    } else {
 
 
-$(document).ready(function () {
-    if ($(window).width() <= 1089) {
+        var headerHeight = $("#header").outerHeight(true);
+
+        $("#listeprojet").css({
+            "margin-top": headerHeight
+        });
 
         var DescriptionProjetTop = $("#description_projet").offset();
         $("#description_projet").css("top", DescriptionProjetTop.top);
 
+    };
 
-    }
 });
-
-
-// À Propos
