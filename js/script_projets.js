@@ -2,11 +2,14 @@ $("#header").load("../header.html");
 
 $("#header").load("header.html");
 
+$("#apropos").load("../header-description.html");
+
+$("#apropos").load("header-description.html");
 
 
 $(document).ready(function () {
     if ($(window).width() >= 1090) {
-        
+
         var headerHeight = $("#header").outerHeight(true);
 
         $("#listeprojet").css({
@@ -88,6 +91,7 @@ $(document).ready(function () {
         $("#listeprojet").css({
             "margin-top": headerHeight
         });
+
 
         var DescriptionProjetTop = $("#description_projet").offset();
         $("#description_projet").css("top", DescriptionProjetTop.top);
