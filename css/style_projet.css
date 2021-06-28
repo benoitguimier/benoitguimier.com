@@ -112,7 +112,7 @@ h2 {
     letter-spacing: -0.015em;
     width: 63.5vw;
     min-height: 18vw;
-    z-index: 100;
+    z-index: -2;
     line-height: 6.7vw;
 }
 
@@ -176,9 +176,9 @@ p {
 @media only screen and (max-device-width: 1089px) {
 
     .container_12 {
-        width: 96%;
-        margin-left: 2%;
-        margin-right: 2%;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
         min-height: 0;
         min-width: 0;
     }
@@ -216,20 +216,23 @@ p {
     }
 
     h2 {
-        padding-top: 30vw;
+        position: static;
+        margin-top: 40vw;
         font-size: 11vw;
         padding-left: 5vw;
         padding-bottom: 10vw;
-        width: 90vw;
+        width: 93vw;
         min-height: 1vw;
         line-height: inherit;
+        background-color: white;
+
     }
 
     #description_projet {
-        position: -webkit-sticky;
-        position: sticky;
+        position: static;
         z-index: -2;
         top: inherit;
+        background-color: white;
     }
 
     #FR,
@@ -258,7 +261,6 @@ p {
     #FR {
         right: 17.16667%;
     }
-
 
 
 }
