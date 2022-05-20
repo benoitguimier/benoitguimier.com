@@ -46,9 +46,8 @@ $(document).ready(function () {
 
         // Image index
         $("h1").mouseover(function () {
-            $(this).parent().find("img").css({
-                "opacity": "1",
-                "transition": "opacity 0.2s ease-in-out"
+            $("img").css({
+                "opacity": "1"
             });
             $("img").not($(this).parent().find("img")).css({
                 "opacity": "0"

@@ -30,6 +30,10 @@ h1:hover {
     font-size: 0.95vw;
 }
 
+a:hover {
+    opacity: 1;
+}
+
 /* //////////////////////////////////// */
 /* ////////////// CONTENU ///////////// */
 /* //////////////////////////////////// */
@@ -55,9 +59,9 @@ h1:hover {
     opacity: 0;
     height: 350px;
     position: absolute;
-    transition: opacity .5s ease-in;
     transition: left .2s linear;
     transition: top .2s linear;
+    transition: opacity 0.2s ease-in-out;
 }
 
 
