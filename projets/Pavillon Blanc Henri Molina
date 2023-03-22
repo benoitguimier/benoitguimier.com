@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<meta charset="utf-8" />
+
+<head>
+
+    <!-- ↓ -->
+    <!-- TITRE PATATE SUR L'ONGLET -->
+    <title>Pavillon Blanc Henri Molina</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style_general.css" />
+    <link rel="stylesheet" href="../css/style_projet.css" />
+    <link rel="stylesheet" href="../css/style_header.css" />
+    <!-- JAVASCRIPT -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+</head>
+
+
+<body> 
+
+    <!-- //////////////////////////////////// -->
+    <!-- ////////////// HEADER ////////////// -->
+    <!-- //////////////////////////////////// -->
+
+    <p id="prenomNomMobile">
+        <a href="https://www.benoitguimier.fr/" class="menu">benoît guimier_</a>
+    </p>
+
+    <div id="header"></div>
+
+    <div id="apropos"></div>
+
+    <!-- //////////////////////////////////// -->
+    <!-- ////////////// CONTENU ///////////// -->
+    <!-- //////////////////////////////////// -->
+
+    <!-- ↓ -->
+    <!-- TITRE PATATE SUR LA PAGE-->
+    <h2>Pavillon Blanc<br>Henri Molina</h2>
+
+    <div id="description_projet">
+
+        <!-- ↓ -->
+        <!-- DESCRIPTION FR -->
+        <div id="FR">
+            <p>FR/Production d’un support imprimé à l’échelle du bâtiment visant à inviter les habitants-es à venir au Pavillon Blanc. Ce support endosse un rôle d’enseigne sur un bâtiment mal identifié par une grande partie des habitants-es. Notre objectif était donc d’en pointer l’entrée et de souhaiter la bienvenue aux habitants en produisant un signal impactant à l’échelle de l’espace public. Ce support permet également d’associer ce bâtiment dessiné par Rudy Riccioti et bien connu des habitants-es à ses fonctions de centre d’art et de médiathèque public.
+Projet réalisé avec Guillaume au sein du duo Bureau indépendant.</p>
+            <p>Commanditaire&#8239;: Pavillon Blanc Henri Molina, centre d'art et médiathèque de Colomiers</p>
+            <p>Année&#8239;: 2022</p>
+        </div>
+
+        <!-- ↓ -->
+        <!-- DESCRIPTION EN -->
+        <div id="EN">
+            <p>EN/ </p>
+            <p>Commanditaire&#8239;: </p>
+            <p>Year&#8239;: </p>
+        </div>
+
+    </div>
+
+
+        <!-- ↓ -->
+    <!-- IMAGES PROJET -->
+    <!-- C'est une grille de 12. Si tu met une image en grid_12 elle prend toute la largeur, grid_6 : la moitié... etc. (et une grid_8 ? bah 8 sur 12.)-->
+    <!-- pour sauter une ligne : <div class="clear></div> -->
+
+    <div class="container_12">
+
+        
+
+        <!-- ↓ EX. IMAGE ↓ -->
+        
+            <div class="grid_12">
+            <div>
+                <img src="../images/bienvenue-bandeau.jpg" alt="" />
+            </div>
+            </div>   
+            <div class="grid_12">
+            <div>
+                <img src="../images/bienvenue.jpg" alt="" />
+            </div>
+            </div>   
+                
+                <div class="grid_6">
+            <div>
+                <img src="../images/bienvenue1.jpg" alt="" />
+            </div>
+            </div>
+                    
+                      <div class="grid_6">
+            <div>
+                <img src="../images/bienvenue2.jpg" alt="" />
+            </div>
+        </div>
+
+
+
+        
+        
+        <!-- ↓ EX. RETOUR À LA LIGNE ↓ -->
+        <div class="clear"></div>
+
+        <!-- ne pas toucher après cette ligne -->
+        <div class="grid_12" id="ligneblanche">
+
+        </div>
+
+    </div>
+
+</body>
+<script type="text/javascript" src="../js/script_projets.js"></script>
+</html>
