@@ -78,24 +78,24 @@ Projet réalisé avec Guillaume au sein du duo Bureau indépendant.</p>
         
             <div class="grid_12">
             <div>
-                <img src="../images/bienvenue-bandeau.jpg" alt="" />
+                <img src="../images/pavillonblanc1.jpg" alt="" />
             </div>
             </div>   
-            <div class="grid_12">
+            <div class="grid_6">
             <div>
-                <img src="../images/bienvenue.jpg" alt="" />
+                <img src="../images/pavillonblanc3.jpg" alt="" />
             </div>
             </div>   
                 
                 <div class="grid_6">
             <div>
-                <img src="../images/bienvenue1.jpg" alt="" />
+                <img src="../images/pavillonblanc5.jpg" alt="" />
             </div>
             </div>
                     
-                      <div class="grid_6">
+                      <div class="grid_12">
             <div>
-                <img src="../images/bienvenue2.jpg" alt="" />
+                <img src="../images/pavillonblanc6.jpg" alt="" />
             </div>
         </div>
 
